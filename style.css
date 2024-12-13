@@ -18,3 +18,7 @@
 .container {
     margin-top: 50px;
 }
+
+th , td {
+    text-align: center;
+}

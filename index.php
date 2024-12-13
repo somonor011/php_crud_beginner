@@ -15,6 +15,8 @@
       <th>First Name</th>
       <th>Last Name</th>
       <th>Age</th>
+      <th>Update</th>
+      <th>Delete</th>
     </tr>
   </thead>
   <tbody>
@@ -35,6 +37,8 @@
           <td><?php echo $row['frist_name']; ?></td>
           <td><?php echo $row['last_name']; ?></td>
           <td><?php echo $row['age']; ?></td>
+          <td><a href="update.php?id=<?php echo $row['id']; ?>"  class="btn btn-success">Update</a></td>
+          <td><a href="delete.php?id=<?php echo $row['id']; ?>"  class="btn btn-danger">Delete</a></td>
         </tr>
     <?php
       }

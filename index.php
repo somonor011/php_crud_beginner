@@ -47,6 +47,11 @@
     echo '<h6  style="color: red; text-align:center;">'.$_GET['message'].'</h6>';
   }
 ?>
+<?php 
+  if(isset($_GET['msg_insert'])){
+    echo '<h6  style="color: green; text-align:center;">'.$_GET['msg_insert'].'</h6>';
+  }
+?>
 
 <!-- Modal -->
 <form action="insert_stu.php" method="post" >

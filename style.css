@@ -6,3 +6,15 @@
     letter-spacing: 2px;
     font-weight: 5px;
 }
+
+.box1 > h2{
+    float: left;
+}
+
+.box1 > button{
+    float: right;
+}
+
+.container {
+    margin-top: 50px;
+}

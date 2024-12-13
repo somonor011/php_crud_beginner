@@ -1,0 +1,1 @@
+INSERT INTO `tbl_crud_beginner` (`id`, `first_name`, `last_name`, `age`) VALUES (NULL, 'Somonor', 'Hong', '18'), (NULL, 'Chhethalika', 'Puthea', '17');
